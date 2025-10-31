@@ -1,13 +1,10 @@
-module github.com/palanquin-software/lipgloss
+module github.com/palanquin-software/lipgloss/v3
 
-retract v0.7.0 // v0.7.0 introduces a bug that causes some apps to freeze.
-
-retract v0.11.1 // v0.11.1 uses a broken version of x/ansi StringWidth that causes some lines to wrap incorrectly.
-
-go 1.24.0
+go 1.25.2
 
 require (
 	github.com/aymanbagabas/go-udiff v0.3.1
+	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/charmbracelet/x/ansi v0.10.2
 	github.com/charmbracelet/x/cellbuf v0.0.13
 	github.com/charmbracelet/x/exp/golden v0.0.0-20250609102027-b60490452b30

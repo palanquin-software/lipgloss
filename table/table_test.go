@@ -774,7 +774,7 @@ func TestClearRows(t *testing.T) {
 	table.Row("French", "Bonjour", "Salut")
 
 	// String() will try to get the rows from table.data
-	table.String()
+	_ = table.String()
 }
 
 func TestContentWrapping(t *testing.T) {

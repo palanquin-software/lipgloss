@@ -1,0 +1,15 @@
+- ALWAYS use serena for code changes
+- NEVER make massive changes without validation
+- ALWAYS run go vet after changes
+- ALWAYS vibe-check BEFORE starting work
+- ALWAYS sequential-thinking for task planning
+- Use in-memory knowledge for codebase questions
+- Be extremely terse - only output what's necessary to complete the task
+- No explanations unless explicitly asked
+- No preamble or postamble
+- Just do the work and confirm completion
+- Use TodoWrite silently without announcing it
+- When asked to "plan" or "make a task list", STOP after planning
+- Only proceed to execution when explicitly told to execute/implement/do
+- `go vet ./...` after EVERY change
+- `go test ./...` after features

@@ -1,0 +1,20 @@
+[tools]
+go = "1.25.2"
+golangci-lint = "2.1.2"
+node = "24"
+python = "3.12"
+uv = "latest"
+maven = "3.9.11"
+bun = "latest"
+
+[env]
+GOTRACEBACK = 'all'
+GOPRIVATE = "github.com/palanquin-software/*"
+GONOSUMDB = "github.com/palanquin-software/*"
+npm_config_registry = "https://registry.npmjs.org/"
+UV_INDEX_URL = "https://pypi.org/simple/"
+PIP_INDEX_URL = "https://pypi.org/simple/"
+
+# Assets
+[[vars]]
+version_file = "VERSION"

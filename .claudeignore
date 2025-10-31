@@ -1,0 +1,88 @@
+# Build artifacts
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.app
+*.dmg
+rsrc.syso
+
+# Binary files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.icns
+*.wav
+*.mp3
+*.ogg
+*.ttf
+*.otf
+
+# Steam artifacts
+steam/libsteam_api.*
+steam/steam_api.*
+steam/scripts/*.vdf
+build/steam-assets/
+
+# Dependencies
+vendor/
+node_modules/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Git
+.git/
+.gitignore
+
+# Logs and debug
+*.log
+logs/*.json
+*.pprof
+*.test
+*.cover
+coverage.html
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+*.old
+
+# Go specific
+go.sum
+*.mod.backup
+
+# Documentation builds
+docs/_build/
+*.pdf
+
+# Apple signing (sensitive)
+.sign/AuthKey*.p8
+.sign/*.cer
+.sign/*.p12
+
+# Test artifacts
+*_test.go
+testdata/
+
+# Large asset files (already embedded)
+assets/**/*.png
+assets/**/*.wav
+assets/**/*.ogg
+assets/**/*.ttf
+
+# Exclude specific large directories if needed
+# Uncomment if context becomes too large:
+# assets/sounds/
+# assets/images/backgrounds/
